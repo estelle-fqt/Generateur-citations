@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-image: url(./assets/yousef-espanioly-0iOOw41DZ28-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 100px;
+}
+
+.quote-box {
+  background: linear-gradient(to right, #3f2b96, #a8c0ff);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 90%;
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #8e7dde;
+  color: white;
+}
+button:hover {
+  background-color: #7d68df; /* Un peu plus sombre au survol */
+  transform: scale(1.05); /* Effet zoom subtil */
+}
